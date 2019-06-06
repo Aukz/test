@@ -1,0 +1,103 @@
+body{
+  background-color: #efefef;
+}
+h1,h2,h3,h4,h5{
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+#container{
+  background-color: white;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 0;
+  width: 920px;
+  height: 1000px;
+}
+}
+header{
+  margin-top: 20px;
+}
+.containder{
+  width: 920px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+
+}
+.title{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.title-name{
+  font-size: 33px;
+}
+.header-navegation{
+  background-color: #333;;
+  width: 880px;
+  padding: 20px;
+
+
+}
+.header-navegation::after{
+  clear: both;
+  display: block;
+  content: "";
+}
+.header-navegation li{
+  float: left;
+  padding:  0 30px;
+  list-style-type: none;
+  text-align: center;
+}
+.header-navegation li a{
+  color: white;
+  text-decoration: none;
+}
+.left-contents{
+  width: 600px;
+  margin-right: 20px;
+  float: left;
+}
+.post img{
+  float: left;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.post:after{
+  clear: both;
+  display: block;
+  content: "";
+}
+.right-contents{
+  width: 300px;
+  float: left;
+}
+.new{
+  font-size: 32px;
+}
+hr{
+height: 1px;
+border: none;
+border-top: 1px #000000 solid;
+}
+.post2 img{
+  float: left;
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+
+}
+.post2:after{
+  clear: both;
+  display: block;
+  content: "";
+}
+.copyright{
+  color: #777;
+  text-align: center;
+}
+.main:after{
+  clear: both;
+  display:block;
+  content;"";
+}
